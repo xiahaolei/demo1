@@ -20,7 +20,7 @@ class Demo1Application2Tests {
     }
 
     @Test
-    void contextLoads1() throws IOException {
+    void contextLoads2() throws IOException {
         String sqlPath = "villa_web_application3.sql";
         StringBuilder replace=new StringBuilder();
         replace.append("hahahahaha333333");

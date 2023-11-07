@@ -15,5 +15,4 @@ jobs:
 
       - name: Trigger Webhook
         run: |
-          mvn test
           curl -X GET -d 'payload=data' -H "Content-Type: application/json" http://192.168.135.159:8080/test/test1

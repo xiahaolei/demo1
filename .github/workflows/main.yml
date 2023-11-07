@@ -15,4 +15,4 @@ jobs:
 
       - name: Trigger Webhook
         run: |
-          curl -X GET -d 'payload=data' -H "Content-Type: application/json" http://192.168.135.159:8080/test/test1211h2
+          curl -X GET -d 'payload=data' -H "Content-Type: application/json" http://192.168.135.159:8080/test/test1211h21
